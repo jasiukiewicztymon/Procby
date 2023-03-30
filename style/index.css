@@ -45,22 +45,15 @@ p span {
     position: absolute;
     background-image: url("../assets/dino.png");
     background-repeat: no-repeat;
-    background-size: 40px 40px;
+    background-size: 30px 30px;
     background-position: 50% 50%;
     width: 50px;
     height: 50px;
 
-    top: 0px;
-    left: 0px;
+    top: 10px;
+    left: 10px;
 
-    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-#star {
-    background-image: url("../assets/star.png");
-    background-size: 50% 50%;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    transition: .1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 #overflow {
@@ -79,9 +72,9 @@ main {
 main > div {
     display: flex;
     flex-direction: column;
-    border: 2px solid #fff;
 
     position: relative;
+    padding: 10px;
 }
 main > div > div {
     display: flex;
@@ -89,7 +82,8 @@ main > div > div {
 main > div > div > div {
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 #pointcounter > div:first-child {
